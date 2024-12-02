@@ -5,17 +5,17 @@ Este proyecto explora el rendimiento de estudiantes en matemáticas, lectura y e
 ---
 
 ## ✨ **Índice**
-1. [📚 Descripción del Proyecto](#descripción-del-proyecto)
-2. [⚙️ Configuración del Entorno](#configuración-del-entorno)
-3. [📈 Análisis y Visualizaciones](#análisis-y-visualizaciones)
+1. [📚 **Descripción del Proyecto**](#descripción-del-proyecto)
+2. [⚙️ **Configuración del Entorno**](#configuración-del-entorno)
+3. [📈 **Análisis y Visualizaciones**](#análisis-y-visualizaciones)
    - Distribución de puntuaciones 🎯
    - Matriz de correlación 🔗
    - Comparación por preparación 🧑‍🎓
    - Estudiantes destacados 🏅
    - Visualización combinada 📊
-4. [📌 Conclusiones](#conclusiones)
-5. [🚀 Cómo Ejecutar](#cómo-ejecutar)
-6. [📂 Estructura del Proyecto](#estructura-del-proyecto)
+4. [📌 **Conclusiones**](#conclusiones)
+5. [🚀 **Cómo Ejecutar**](#cómo-ejecutar)
+6. [📂 **Estructura del Proyecto**](#estructura-del-proyecto)
 
 ---
 
