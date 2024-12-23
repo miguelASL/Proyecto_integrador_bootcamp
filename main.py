@@ -4,6 +4,7 @@ from db.database_setup import setup_database
 from db.data_loader import load_data_to_db, validate_data
 from views.views import create_views_and_procedures
 from procedures.procedures import get_high_math_scores, insert_student, get_student_averages, avg_scores_by_ethnicity
+# from analisis import x
 
 # Ruta del archivo CSV y base de datos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Directorio base
@@ -32,19 +33,19 @@ def main():
         load_data_to_db(CSV_FILE, cursor)
 
     validate_data(cursor)
-    create_views_and_procedures(cursor)
+    # create_views_and_procedures(cursor)
 
-    print_section_header("High Math Scores")
-    print("=============================")
-    print(get_high_math_scores(cursor))
+    # print_section_header("High Math Scores")
+    # print("=============================")
+    # print(get_high_math_scores(cursor))
 
-    print_section_header("Student Averages")
-    print("=============================")
-    print(get_student_averages(cursor))
+    # print_section_header("Student Averages")
+    # print("=============================")
+    # print(get_student_averages(cursor))
 
-    print_section_header("Average Scores by Ethnicity")
-    print("=============================")
-    print(avg_scores_by_ethnicity(cursor))
+    # print_section_header("Average Scores by Ethnicity")
+    # print("=============================")
+    # print(avg_scores_by_ethnicity(cursor))
 
     conn.close()
 
