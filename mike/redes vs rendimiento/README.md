@@ -196,28 +196,47 @@ python analysis/combined_visualizations.py
 ## 📂 **Estructura del Proyecto**
 
 ```
-📦 Proyecto_integrador_bootcamp
- ┣ 📂 analysis
- ┃ ┣ 📜 combined_visualizations.py
- ┃ ┣ 📜 interactive_correlation.py
- ┃ ┣ 📜 interactive_distribution.py
- ┃ ┗ 📜 score_relationship.py
- ┣ 📂 data
- ┃ ┗ 📜 students_performance.csv
- ┣ 📂 images
- ┃ ┗ 📜 logo.png
- ┣ 📜 main.py
+ ┣ 📂 mike
+ ┃ ┣ 📂 redes vs rendimiento
+ ┃ ┃ ┣ 📂 analysis
+ ┃ ┃ ┃ ┣ 📜 combined_visualizations.py
+ ┃ ┃ ┃ ┣ 📜 ethnicity_analysis.py
+ ┃ ┃ ┃ ┣ 📜 exploratory_analysis.py
+ ┃ ┃ ┃ ┣ 📜 interactive_correlation.py
+ ┃ ┃ ┃ ┣ 📜 interactive_distribution.py
+ ┃ ┃ ┃ ┣ 📜 prediction_model.py
+ ┃ ┃ ┃ ┣ 📜 score_relationship.py
+ ┃ ┃ ┃ ┗ 📜 top_students.py
+ ┃ ┃ ┣ 📂 data
+ ┃ ┃ ┣ 📂 db
+ ┃ ┃ ┃ ┣ 📜 basic_queries.py
+ ┃ ┃ ┃ ┣ 📜 data_loader.py
+ ┃ ┃ ┃ ┣ 📜 database_setup.py
+ ┃ ┃ ┃ ┣ 📜 initial_setup.py
+ ┃ ┃ ┃ ┗ 📜 __init__.py
+ ┃ ┃ ┣ 📂 exports
+ ┃ ┃ ┣ 📂 procedures
+ ┃ ┃ ┃ ┣ 📜 advanced_queries.py
+ ┃ ┃ ┃ ┣ 📜 procedures.py
+ ┃ ┃ ┃ ┗ 📜 __init__.py
+ ┃ ┃ ┣ 📂 script
+ ┃ ┃ ┣ 📂 venv
+ ┃ ┃ ┣ 📂 views
+ ┃ ┃ ┃ ┣ 📜 create_views.py
+ ┃ ┃ ┃ ┣ 📜 views.py
+ ┃ ┃ ┃ ┗ 📜 __init__.py
+ ┃ ┃ ┣ 📜 main.py
+ ┃ ┃ ┗ 📜 README.md
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
 ```
 
 📜 Script
 
--   `main.py`: Script principal para ejecutar la exportación de datos.
-
+main.py: Script principal para ejecutar la exportación de datos.
 📤 Exports
 
--   En esta carpeta se encuentran los archivos generados por los scripts en formato `.csv`.
+En esta carpeta se encuentran los archivos generados por los scripts en formato .csv.
 
 ---
 
