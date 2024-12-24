@@ -86,17 +86,19 @@ def export_all_tables(engine, export_dir):
         print(f"Error al exportar las tablas: {e}")
 
 
-# Ejemplo de uso
 if __name__ == "__main__":
-    # engine_sleeping_patterns = connect_to_database(DB_SETTINGS["sleeping_patterns"])
+    engine_sleeping_patterns = connect_to_database(
+        DB_SETTINGS["sleeping_patterns"])
     engine_students_performance = connect_to_database(
         DB_SETTINGS["students_performance"])
 
     export_dir = os.path.join(os.path.dirname(__file__), '..', 'exports')
     os.makedirs(export_dir, exist_ok=True)
 
-    # if engine_sleeping_patterns:
-    #    # export_all_tables(engine_sleeping_patterns, export_dir)
+    if engine_sleeping_patterns:
+        export_all_tables(engine_sleeping_patterns, export_dir)
 
     if engine_students_performance:
         export_all_tables(engine_students_performance, export_dir)
+
+    print("Proceso de exportación finalizado.")
