@@ -233,7 +233,7 @@ python analysis/combined_visualizations.py
 
 📜 Script
 
-main.py: Script principal para ejecutar la exportación de datos.
+`main.py`: Script principal para ejecutar la exportación de datos.
 📤 Exports
 
 En esta carpeta se encuentran los archivos generados por los scripts en formato .csv.
