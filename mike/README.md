@@ -224,6 +224,3 @@ python analysis/combined_visualizations.py
 👨‍💻 **Equipo de Desarrollo:**
 
 -   [**Miguel Sarmiento**](https://www.linkedin.com/in/miguel-sarmiento-levy/)
--   [**José Méndez**](https://www.linkedin.com/in/jose-mendez-34952a102/)
--   [**Luciano Fernandez Peña**](https://www.linkedin.com/in/lucianofernandezpe%C3%B1a/)
--   [**Martin Simonet**](https://www.linkedin.com/in/martin-simonet/)
