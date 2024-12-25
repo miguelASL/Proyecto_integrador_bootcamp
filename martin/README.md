@@ -1,8 +1,10 @@
 # 🛌 Proyecto Integrador: Análisis de Patrones de Sueño en Estudiantes 
 
+## Introducción 
+
 Este proyecto forma parte del **bootcamp de análisis de datos en Unicorn Academy** 🎓. Aquí exploraremos cómo los patrones de sueño afectan el rendimiento académico, utilizando herramientas como SQL para el análisis y GitHub para la documentación.  
 
-## 🚀 Objetivo  
+## 🚀 Objetivos  
 
 - **Organizar y estructurar la base de datos:**
 Crear un esquema bien estructurado para almacenar los datos relacionados con los patrones de sueño de los estudiantes. Esto incluye dividir la información en varias tablas para facilitar el análisis y mejorar el rendimiento de las consultas.
@@ -24,7 +26,7 @@ Automatizar consultas complejas, generar reportes dinámicos y comparar datos, o
 
 - **Documentar y explicar el proceso:**
 Documentar cada paso del proyecto de forma detallada, explicando el propósito de cada consulta SQL, para que el proyecto sea fácilmente entendible para otros usuarios. Además, presentar los scripts de SQL bien organizados en la carpeta sql del repositorio.
-
+ 
 - **Demostrar habilidades en SQL:**
 Mostrar el dominio de funciones avanzadas de SQL (como JOIN, GROUP BY, HAVING, etc.) y la capacidad para manejar grandes cantidades de datos de forma eficiente.
 
@@ -33,16 +35,43 @@ Mantener un repositorio de GitHub limpio y bien estructurado con una documentaci
 
 - **Optimizar la base de datos para futuras visualizaciones:**
 Organizar las tablas de forma que los datos sean fácilmente exportables a herramientas de visualización de datos, como Power BI o Tableau, permitiendo un análisis visual efectivo en el futuro.
+---
+## Configuración del proyecto ⚙️
 
+### Acceso a los datos crudos 
 
+**Haz Click:** [sleeping_patterns.csv](sql/raw-data/sleeping_patterns.csv)
+
+### Acceso al archivo final de sql
+
+**Haz Click:** [archivo-final.sql](sql/archivo-final/archivo-final.sql) 
+
+ - Paso 1: descarga el archivo del hyeperlink
+ - Paso 2: abre el archivo utilizando el server de sql a elección
+ - Paso 3: ejecuta el código
+
+**Resultado:**
+- Luego de seguis los pasos 1, 2 y 3, tendrás es esquma creado, asi como las tablas, vistas y stored procedures.
+
+#### El paso a paso de como llegue al [archivo-final.sql](sql/archivo-final/archivo-final.sql) se explica en el abajo 👇
 ---
 
-## Índice del Proyecto
-1. [🔑 Seleccionar esquema](sql/1-seleccionar-esquema.sql)  
-2. [🏗️ Creación de tablas](sql/2-creación-de-tablas.sql)  
-3. [📥 Popular tablas](sql/3-popular-tablas.sql)  
-4. [✅ Verificación de tablas](sql/4-verificación-tablas.sql)  
-5. [🧹 Limpieza de datos](sql/5-limpieza-de-datos.sql)  
+## Índice del Proyecto 👇
+
+
+1. [Introducción](#introducción)  
+2. [🚀 Objetivos](#-objetivos)  
+3. [📝 Guía paso a paso](#-guía-paso-a-paso)  
+   - [🔨 Paso 1: Configuración de la base de datos](#-paso-1-configuración-de-la-base-de-datos)  
+   - [Paso 2: Creacion de tablas](#paso-2-creacion-de-tablas)
+   - [📤 Paso 3: Poblar las tablas](#-paso-3-poblar-las-tablas)  
+   - [📊 Paso 4: Verificar la estructura y datos](#-paso-4-verificar-la-estructura-y-datos)  
+   - [🧹 Paso 5: Limpieza de datos](#-paso-5-limpieza-de-datos)  
+4. [Vistas SQL](#vistas-sql)
+5. [Creación de Stored Procedures para Análisis de Datos](#creacion-de-stored-procedures-para-analisis-de-datos)
+6. [🌟 Conclusiones Generales](#-conclusiones-generales)  
+
+
 ---
 
 ## 📝 Guía paso a paso  
@@ -81,7 +110,7 @@ Esto asegura que cualquier tabla que creemos o modifiquemos se haga en la base d
 
 
 
-### 🛠️ Paso 2: Creación de tablas
+### Paso 2: Creacion de tablas
 Aquí explicamos cómo se separaron los datos en tres tablas: `students`, `sleep_patterns` y `lifestyle`.
 Para mejorar la organización y el análisis de los datos, dividimos la tabla original `student_sleep_patterns` en tres tablas relacionadas:
 
@@ -102,7 +131,7 @@ Para mejorar la organización y el análisis de los datos, dividimos la tabla or
 
 ---
 
-### **📤 Paso 3: Poblar las tablas**
+### 📤 Paso 3: Poblar las tablas
 Explicamos cómo transferimos los datos de la tabla original `student_sleep_patterns` a las nuevas tablas.
 Transferimos los datos de la tabla original a las nuevas tablas utilizando consultas `INSERT INTO ... SELECT`.
 
@@ -192,7 +221,7 @@ Con estos pasos de limpieza, hemos:
 ---
 
 
-## 🗂️ Vistas SQL 
+## Vistas SQL 
 ### 🌟 Destacados de esta sección
 
 #### 1. 🔎 Análisis avanzado con SQL
@@ -315,3 +344,67 @@ CALL sp_CompareLifestyleWithAverage(123); -- Compara al estudiante con ID 123
   # Archivo final del esquema SQL:
 
   [sleeping_patterns.sql](sql/archivo-final/sleeping_patterns.sql)
+
+## Conclusiones Generales 🌟
+
+#### 1. Promedio de sueño🛌🌙:
+
+- El promedio de sueño de los estudiantes es 6.47 horas, lo que está por debajo del rango recomendado de 7-9 horas diarias según expertos en salud.
+- Esto podría sugerir una tendencia general de déficit de sueño en los estudiantes, lo que puede impactar negativamente en su rendimiento académico y bienestar general.
+
+#### 2.Estilo de vida 🕒🚶‍♀️
+
+- Horas de estudio: Los estudiantes dedican un promedio de 5.98 horas diarias al estudio, lo que refleja un compromiso significativo con sus responsabilidades académicas.
+- Tiempo de pantalla: El tiempo promedio de pantalla es de 2.53 horas, que aunque moderado, podría estar relacionado con una reducción en la calidad de sueño debido a la exposición a dispositivos electrónicos.
+- Consumo de cafeína: El consumo promedio de cafeína es de 2.46 tazas por día, lo que puede estar contribuyendo a la interrupción del sueño, especialmente si se consume en las horas cercanas al descanso.
+- Actividad física: El promedio de actividad física es de 62.34 minutos diarios, lo que sugiere que algunos estudiantes mantienen hábitos saludables en este aspecto. Sin embargo, sería interesante analizar si hay correlación entre la actividad física y la calidad del sueño.
+
+#### 3.Cumplimiento de recomendaciones de sueño 🎯 
+
+- Solo 42.8% de los estudiantes cumplen con las recomendaciones de sueño diario. Esto resalta la necesidad de promover una mejor higiene del sueño y concienciar sobre su importancia para la salud y el rendimiento académico.
+
+#### 4. Rango de sueño registrado 📚😴
+
+- El rango de sueño varía entre 4 y 9 horas, con un promedio de 6.47 horas.
+- La cantidad mínima registrada de 4 horas es alarmante y puede estar relacionada con un estilo de vida extremo, como largas horas de estudio o tiempo excesivo frente a pantallas.
+
+
+## Posibles recomendaciones
+
+#### 1. Mejorar la higiene del sueño
+- Fomentar horarios regulares para dormir y despertarse, incluso los fines de semana.
+- Reducir el tiempo frente a pantallas antes de dormir y limitar el consumo de cafeína por las tardes.
+
+#### 2. Equilibrar estudio y descanso
+- Aunque los estudiantes dedican un promedio razonable a estudiar (5.98 horas), podrían beneficiarse de estrategias de gestión del tiempo para mantener un equilibrio saludable entre sus responsabilidades y el descanso.
+
+#### 3. Promoción de actividad física
+
+- Los estudiantes que realizan más de 60 minutos de actividad física diaria podrían estar mejorando su calidad de sueño, lo que refuerza la importancia de incorporar ejercicio regular en sus rutinas.
+
+## Reflexión técnica 🛠️💡
+
+#### Impacto de las herramientas SQL 🗄️🔍
+
+- La creación de vistas SQL y stored procedures permitió transformar datos crudos en información procesable y relevante.
+- Con vistas como SleepComparison 🕒 y BalancedHabitsRanking 🏆, fue posible identificar patrones clave de comportamiento y hábitos estudiantiles.
+
+#### Optimización y reutilización 📈♻️
+
+- Las vistas y procedimientos almacenados no solo facilitaron el análisis, sino que también hicieron el proceso más eficiente al evitar cálculos repetitivos.
+- Estas herramientas pueden ser reutilizadas fácilmente en proyectos futuros o ampliadas para incorporar nuevos datos.
+
+#### Colaboración y presentación 🧑‍🤝‍🧑📊
+
+- Al estructurar el proyecto en un esquema organizado y exportable, el análisis es accesible para otros colaboradores, fomentando el trabajo en equipo.
+- El uso de herramientas como MySQL Workbench y la exportación de un esquema completo 🌐📦 asegura que el proyecto sea fácil de compartir e integrar en otras plataformas.
+
+#### Valor añadido para el portfolio 💼✨
+
+- Incorporar análisis avanzados como estadísticas, vistas comparativas y stored procedures muestra un alto nivel de conocimiento técnico y comprensión de los datos.
+- Este enfoque resalta no solo la capacidad para usar SQL, sino también para aplicar pensamiento analítico y resolver problemas reales 🧠🔗.
+
+#### Futuras extensiones 🔮🚀
+
+- Integrar estas vistas y procedimientos con herramientas de visualización como Tableau 📊 o Power BI 📈 puede mejorar la comunicación de resultados y hacerlos más impactantes.
+- Expandir el análisis a otras áreas, como el rendimiento académico en relación con el sueño, podría proporcionar un contexto más rico y significativo.
