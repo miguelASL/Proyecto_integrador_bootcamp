@@ -4,7 +4,7 @@ from db.database_setup import setup_database
 from db.data_loader import load_data_to_db, validate_data
 from views.views import create_views_and_procedures
 from procedures.procedures import get_high_math_scores, insert_student, get_student_averages, avg_scores_by_ethnicity
-# from analisis import x
+
 
 # Ruta del archivo CSV y base de datos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Directorio base
