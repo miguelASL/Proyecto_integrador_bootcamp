@@ -8,6 +8,7 @@ from db.data_loader import load_data_to_db, validate_data
 from views.views import create_views_and_procedures
 from procedures.procedures import get_high_math_scores, insert_student, get_student_averages, avg_scores_by_ethnicity
 
+
 # Ruta del archivo CSV y base de datos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Directorio base
 CSV_FILE = os.path.join(BASE_DIR, "db/Análisis_Sueño.csv")
