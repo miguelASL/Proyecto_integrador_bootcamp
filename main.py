@@ -119,7 +119,7 @@ plt.show()
 
 def Duracion_Sueño_Genero():
     df = pd.read_csv(CSV_FILE)
-    plt.figure(figsize=(2,2))
+    plt.figure(figsize=(1,1))
     sns.histplot(data=df, x="Gender",bins=50,kde=True)
 plt.show()
 
@@ -159,16 +159,16 @@ def main():
 
     validate_data(cursor)
 
-    #Describe()
-    #Actividad_Fisica_Año_escolar()
-    #Actividad_Fisica()
-    #Sueño_Calidad()
-    #Sueño_Genero()
-    #Duracion_Sueño_Genero()
-    #Cafeina_Genero()
-    #Cafeina_Edad()
+    Describe()
+    Actividad_Fisica_Año_escolar()
+    Actividad_Fisica()
+    Sueño_Calidad()
+    Sueño_Genero()
+    Duracion_Sueño_Genero()
+    Cafeina_Genero()
+    Cafeina_Edad()
     #Sueño_Edad()
-    #Exposición_Pantalla_edad()
+    Exposición_Pantalla_edad()
     Duracion_Sueño()
     Exposición_Pantalla()
     
