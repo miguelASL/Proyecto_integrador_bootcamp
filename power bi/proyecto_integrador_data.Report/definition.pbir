@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../proyecto_integrador_data.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

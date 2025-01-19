@@ -1,0 +1,1757 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.128.1380.0 (24.04)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"gender\",\"lifestyle\",\"lunch\",\"parental_level_of_education\",\"race_ethnicity\",\"sleep_patterns\",\"social_media_platforms\",\"student_sleep_patterns\",\"students\",\"students_performance\",\"test_preparation_course\",\"Puntajes\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_445b8838-fe1f-4eff-9681-7f468ddda5a5",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Student_ID",
+        "fromTable": "sleep_patterns",
+        "toColumn": "Student_ID",
+        "toTable": "lifestyle"
+      },
+      {
+        "name": "AutoDetected_777dc337-14af-46c4-92c6-300277b2f082",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Student_ID",
+        "fromTable": "student_sleep_patterns",
+        "toColumn": "Student_ID",
+        "toTable": "lifestyle"
+      },
+      {
+        "name": "AutoDetected_cd98a4b9-5d70-4df7-9066-e26e9d231acb",
+        "fromColumn": "Gender",
+        "fromTable": "student_sleep_patterns",
+        "toColumn": "gender_name",
+        "toTable": "gender"
+      },
+      {
+        "name": "AutoDetected_dc0ec2c0-9b8f-4128-8cac-63c8bc66f514",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "Student_ID",
+        "fromTable": "students",
+        "toColumn": "Student_ID",
+        "toTable": "lifestyle"
+      },
+      {
+        "name": "AutoDetected_af2b0384-f7c4-4462-9c7b-f2ab7292ffc7",
+        "fromColumn": "Gender",
+        "fromTable": "students",
+        "isActive": false,
+        "toColumn": "gender_name",
+        "toTable": "gender"
+      },
+      {
+        "name": "AutoDetected_ba2ec831-d0d4-4267-8430-fa2ce9881848",
+        "fromColumn": "gender_id",
+        "fromTable": "students_performance",
+        "toColumn": "id",
+        "toTable": "gender"
+      },
+      {
+        "name": "AutoDetected_8ae84450-2bed-4bee-8f37-de1020dad547",
+        "fromColumn": "lunch_id",
+        "fromTable": "students_performance",
+        "toColumn": "id",
+        "toTable": "lunch"
+      },
+      {
+        "name": "AutoDetected_f11080b0-96c1-4f58-adc8-a18868a70c31",
+        "fromColumn": "parental_level_of_education_id",
+        "fromTable": "students_performance",
+        "toColumn": "id",
+        "toTable": "parental_level_of_education"
+      },
+      {
+        "name": "AutoDetected_133802c2-bf32-4049-a0c0-cfdf78e6e2d7",
+        "fromColumn": "race_ethnicity_id",
+        "fromTable": "students_performance",
+        "toColumn": "id",
+        "toTable": "race_ethnicity"
+      },
+      {
+        "name": "AutoDetected_a7f94982-bc12-428b-89db-93bf59d6e47e",
+        "fromColumn": "social_media_platforms_id",
+        "fromTable": "students_performance",
+        "toColumn": "id",
+        "toTable": "social_media_platforms"
+      },
+      {
+        "name": "AutoDetected_3f1d4604-2c4d-4ac2-a88f-8fd2fc85b3e6",
+        "fromColumn": "test_preparation_course_id",
+        "fromTable": "students_performance",
+        "toColumn": "id",
+        "toTable": "test_preparation_course"
+      }
+    ],
+    "sourceQueryCulture": "es-ES",
+    "tables": [
+      {
+        "name": "gender",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "979c50ea-1395-4c65-b3fc-a203f92d55e6",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gender_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3a99ec6-613e-404d-ae1a-0dc2c91d44dc",
+            "sourceColumn": "gender_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "def41d0f-75fe-4aa8-ba19-8d7df4676868",
+        "partitions": [
+          {
+            "name": "gender",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\gender.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"gender_name\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "lifestyle",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Lifestyle_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4579cebf-b502-40d3-8e15-7697fe055ce2",
+            "sourceColumn": "Lifestyle_ID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Student_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4b77d9ad-578f-42cd-a1ed-c617dd67763a",
+            "sourceColumn": "Student_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Study_Hours",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "189c777d-fcd0-47aa-be9e-4e8bf5171ea9",
+            "sourceColumn": "Study_Hours",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Screen_Time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "259e2fbd-d8a7-4b5f-8743-72296224e95c",
+            "sourceColumn": "Screen_Time",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Caffeine_Intake",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c4d71564-bef7-4193-a57f-e9a6501049d0",
+            "sourceColumn": "Caffeine_Intake",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Physical_Activity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fbd6f4ec-eb00-49cd-b58f-6a7be66f4b3a",
+            "sourceColumn": "Physical_Activity",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "e96d78b9-78e8-45d4-8bf6-cc5b9a5c3315",
+        "measures": [
+          {
+            "name": "Actividad Física Promedio",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "AVERAGE('lifestyle'[Physical_Activity])",
+              ""
+            ],
+            "lineageTag": "4b9c1edc-4108-4644-b586-30256e2dc9dd"
+          },
+          {
+            "name": "Café y Estudio",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "    'lifestyle',",
+              "    'lifestyle'[Caffeine_Intake] * 'lifestyle'[Study_Hours]",
+              ")",
+              ""
+            ],
+            "lineageTag": "0360807f-9662-4b2a-9f0b-9260a1e5b3e0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "lifestyle",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\lifestyle.csv\"),[Delimiter=\",\", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Lifestyle_ID\", Int64.Type}, {\"Student_ID\", Int64.Type}, {\"Study_Hours\", Int64.Type}, {\"Screen_Time\", Int64.Type}, {\"Caffeine_Intake\", Int64.Type}, {\"Physical_Activity\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "lunch",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "11894fe2-66b5-4a88-8420-2151380eb4c8",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lunch_type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a286fae0-79ed-4671-949f-70e2d44e2ff8",
+            "sourceColumn": "lunch_type",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "56572b57-de9a-48b5-a1b1-be5a6cfb9fa2",
+        "partitions": [
+          {
+            "name": "lunch",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\lunch.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"lunch_type\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "parental_level_of_education",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c73dc73c-43ef-4d27-9c8e-41d5d2a02f61",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "education_level_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "78f0e8b0-70cf-4ac5-b524-cfdad2c9108a",
+            "sourceColumn": "education_level_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cef64b5a-9f5c-4348-af4a-9fa6a51f2cec",
+        "partitions": [
+          {
+            "name": "parental_level_of_education",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\parental_level_of_education.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"education_level_name\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "race_ethnicity",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2b2794a7-0b9b-4bc6-9425-d704a972fb02",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "race_ethnicity_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e26ed823-e176-47f3-bdef-3b8676b0fcfc",
+            "sourceColumn": "race_ethnicity_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "c6f0d43f-313e-4412-b01c-e88692c11026",
+        "partitions": [
+          {
+            "name": "race_ethnicity",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\race_ethnicity.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"race_ethnicity_name\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "sleep_patterns",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Pattern_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5e6ace4d-95c9-4a22-ae20-75b524853ee2",
+            "sourceColumn": "Pattern_ID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Student_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "29589ec4-7b5f-4411-8f96-f94b42625b60",
+            "sourceColumn": "Student_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sleep_Duration",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3def7ad7-0e98-4163-8487-dd436404344b",
+            "sourceColumn": "Sleep_Duration",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sleep_Quality",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "d2f593ea-6988-48ea-a540-a9dc39cc4bc2",
+            "sourceColumn": "Sleep_Quality",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Weekday_Sleep_Start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "087325a5-15e2-48e0-ba96-cdd7ccaf68f8",
+            "sourceColumn": "Weekday_Sleep_Start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Weekday_Sleep_End",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "7f4c3ddb-0f53-4c4d-a4c4-862b3d2f1452",
+            "sourceColumn": "Weekday_Sleep_End",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Weekend_Sleep_Start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "9d8c58ec-9ccd-4110-83f1-50861a4e4830",
+            "sourceColumn": "Weekend_Sleep_Start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Weekend_Sleep_End",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "6355ba0e-13b2-4cef-a4ac-03ee47d35a22",
+            "sourceColumn": "Weekend_Sleep_End",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "5d43a3fd-6984-4f4e-82a1-7be39e2b0024",
+        "measures": [
+          {
+            "name": "Promedio Sueño",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "AVERAGE('sleep_patterns'[Sleep_Duration]) / 10",
+              ""
+            ],
+            "lineageTag": "11a671e8-9959-4663-89e9-585bcddffc6c"
+          },
+          {
+            "name": "Puntaje por Sueño",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "    'students_performance',",
+              "    ('students_performance'[math_score] + 'students_performance'[reading_score] + 'students_performance'[writing_score]) /",
+              "    AVERAGE('sleep_patterns'[Sleep_Duration])",
+              ")",
+              ""
+            ],
+            "lineageTag": "63c223ff-9f99-45e8-ae91-39da1865fa32"
+          },
+          {
+            "name": "Total ALumno",
+            "expression": "COUNT(sleep_patterns[Pattern_ID])",
+            "formatString": "0",
+            "lineageTag": "f352fda3-ead4-443c-96c9-5fc7509bcdf0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "sleep_patterns",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\sleep_patterns.csv\"),[Delimiter=\",\", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Pattern_ID\", Int64.Type}, {\"Student_ID\", Int64.Type}, {\"Sleep_Duration\", Int64.Type}, {\"Sleep_Quality\", Int64.Type}, {\"Weekday_Sleep_Start\", type time}, {\"Weekday_Sleep_End\", type time}, {\"Weekend_Sleep_Start\", type time}, {\"Weekend_Sleep_End\", type time}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "social_media_platforms",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e5fa83e9-e231-42b8-b9a2-ae3d790fb2dd",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "platform_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "794cc655-b687-44e3-829b-a07ca0bd8eb4",
+            "sourceColumn": "platform_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "8a5d02d3-1ff2-4c62-aa78-b1e96d183d4d",
+        "partitions": [
+          {
+            "name": "social_media_platforms",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\social_media_platforms.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"platform_name\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "student_sleep_patterns",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Student_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ca47aac7-907a-423c-a23c-ba48c3158ba9",
+            "sourceColumn": "Student_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2bffbfae-e129-44fb-a53b-c9f272f4dbb8",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "91d7eb5e-509b-47ab-a814-1dc6dff92773",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "University_Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "22b0f354-f54b-4af8-98d1-7acc5eef96c5",
+            "sourceColumn": "University_Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sleep_Duration",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1a75a656-341a-4edc-8fd7-ff9e67e3308c",
+            "sourceColumn": "Sleep_Duration",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Study_Hours",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0ca3a0a3-76ec-49cd-9b5e-35fbc53935b2",
+            "sourceColumn": "Study_Hours",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Screen_Time",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "44e331ae-1bb9-4411-b28f-c931b5f29042",
+            "sourceColumn": "Screen_Time",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Caffeine_Intake",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "eefda8ea-aefd-4386-a3c1-fc7a87698311",
+            "sourceColumn": "Caffeine_Intake",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Physical_Activity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4f5db91e-2be8-4803-8dd6-5bad4680ab56",
+            "sourceColumn": "Physical_Activity",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sleep_Quality",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fbe19df5-ba54-47ef-8002-c477542399c6",
+            "sourceColumn": "Sleep_Quality",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Weekday_Sleep_Start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "09d3b113-d067-43f8-912c-85aa81594269",
+            "sourceColumn": "Weekday_Sleep_Start",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Weekend_Sleep_Start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f085c0a9-72f1-4131-bb1d-6fd416728ebb",
+            "sourceColumn": "Weekend_Sleep_Start",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Weekday_Sleep_End",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ada3a481-4ce4-43d7-be17-2e408b394783",
+            "sourceColumn": "Weekday_Sleep_End",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Weekend_Sleep_End",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "46ca089a-8088-4410-9d85-2ba329ff9f0a",
+            "sourceColumn": "Weekend_Sleep_End",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "6c3fba37-ebab-4222-a0ab-e346c1302e45",
+        "partitions": [
+          {
+            "name": "student_sleep_patterns",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\student_sleep_patterns.csv\"),[Delimiter=\",\", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Student_ID\", Int64.Type}, {\"Age\", Int64.Type}, {\"Gender\", type text}, {\"University_Year\", type text}, {\"Sleep_Duration\", Int64.Type}, {\"Study_Hours\", Int64.Type}, {\"Screen_Time\", Int64.Type}, {\"Caffeine_Intake\", Int64.Type}, {\"Physical_Activity\", Int64.Type}, {\"Sleep_Quality\", Int64.Type}, {\"Weekday_Sleep_Start\", Int64.Type}, {\"Weekend_Sleep_Start\", Int64.Type}, {\"Weekday_Sleep_End\", Int64.Type}, {\"Weekend_Sleep_End\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "students",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Student_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dae86a17-1202-4912-bc49-0850ffb9dd2b",
+            "sourceColumn": "Student_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2e354333-812f-411b-87fe-70921a89abbf",
+            "sourceColumn": "Age",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d1680530-9658-4dff-a2d6-fa2a6cb3d09e",
+            "sourceColumn": "Gender",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "University_Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c75a8949-b31e-4c4e-8313-a26cabfdd229",
+            "sourceColumn": "University_Year",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b7c3218a-e0b5-498d-8a13-6dd355588a3b",
+        "partitions": [
+          {
+            "name": "students",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\students.csv\"),[Delimiter=\",\", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"Student_ID\", Int64.Type}, {\"Age\", Int64.Type}, {\"Gender\", type text}, {\"University_Year\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "students_performance",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "math_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a4adba49-411d-4794-a5b0-40cb65fed186",
+            "sourceColumn": "math_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "reading_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "134273a2-cf1e-44e3-9572-0fd3ba15e281",
+            "sourceColumn": "reading_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "writing_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "48bd5e0f-da9a-4cd0-9de7-3f4ab66a294d",
+            "sourceColumn": "writing_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "fecha",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "3fcee3e8-61b8-4ee6-9988-bf3426760ad5",
+            "sourceColumn": "fecha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tiempo_redes_horas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "8c8d9166-7e3a-4820-82c7-3d25aba20adc",
+            "sourceColumn": "tiempo_redes_horas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "categoria_rendimiento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ba3dbdf9-54bf-4e4c-82f8-a2f85fd66a52",
+            "sourceColumn": "categoria_rendimiento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "generacion",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c015c051-18bc-49ed-9d18-2c3b66d4a614",
+            "sourceColumn": "generacion",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "20cd0c4d-07d7-4f86-96d9-e1ecd9696438",
+            "sourceColumn": "id",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "usage_hours",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2bb64346-0398-49e1-80b1-050e7632a94d",
+            "sourceColumn": "usage_hours",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "impact_score",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "423c3082-cadf-4c1d-bfeb-ddd6862d2b7a",
+            "sourceColumn": "impact_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "impact_category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1f650707-f707-4650-98f4-163a3dfe7e82",
+            "sourceColumn": "impact_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "gender_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "94b2ee7b-9967-4f73-be11-e7ef3e24621a",
+            "sourceColumn": "gender_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "race_ethnicity_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f1e24924-5bf5-4bd2-8f22-62b0866b6baa",
+            "sourceColumn": "race_ethnicity_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "parental_level_of_education_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "cee0a6c8-bf98-4eee-80f8-7aa44aaaf30f",
+            "sourceColumn": "parental_level_of_education_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lunch_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0a076720-a16d-4abe-91e2-c391199d8b96",
+            "sourceColumn": "lunch_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "test_preparation_course_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dca81072-3997-49c7-9c4a-2eca07b6d674",
+            "sourceColumn": "test_preparation_course_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "social_media_platforms_id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dac1b490-5dd1-4282-84f3-e0680ab8958e",
+            "sourceColumn": "social_media_platforms_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "986a33ba-d09d-4beb-bdaf-afe69262d831",
+        "measures": [
+          {
+            "name": "Promedio Total",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "    'students_performance',",
+              "    'students_performance'[math_score] + 'students_performance'[reading_score] + 'students_performance'[writing_score]",
+              ")"
+            ],
+            "lineageTag": "b2b6cc8a-57b1-459d-bbe0-8432e76b5f54"
+          },
+          {
+            "name": "Promedio Matemáticas",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE('students_performance'[math_score])",
+            "lineageTag": "c24b8824-c18d-4407-8241-fa564018013f"
+          },
+          {
+            "name": "Promedio Lectura",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE('students_performance'[reading_score])",
+            "lineageTag": "36f51ca0-329a-4a3a-81e4-3a7c37205cde"
+          },
+          {
+            "name": "Promedio Escritura",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE('students_performance'[writing_score])",
+            "lineageTag": "ce63f7d2-5ee6-4ffd-9858-84e9eb226df1"
+          },
+          {
+            "name": "Diferencia Promedio",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGE('students_performance'[math_score]) - AVERAGE('students_performance'[reading_score])",
+              ""
+            ],
+            "lineageTag": "37adad85-dec5-4b33-9c73-ee33a4afa31c"
+          },
+          {
+            "name": "Promedio Uso Redes",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "AVERAGE('students_performance'[usage_hours])",
+              ""
+            ],
+            "lineageTag": "bebcf93d-55b2-4138-98d2-b454c775efd0"
+          },
+          {
+            "name": "Impacto Redes Sociales",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "AVERAGE('students_performance'[impact_score])",
+              ""
+            ],
+            "lineageTag": "73af7ad0-9433-49db-befc-1dec26615c89"
+          },
+          {
+            "name": "Promedio Con Curso",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    AVERAGEX(",
+              "        'students_performance',",
+              "        'students_performance'[math_score] + 'students_performance'[reading_score] + 'students_performance'[writing_score]",
+              "    ),",
+              "    'test_preparation_course'[course_name] = \"completed\"",
+              ")",
+              "",
+              ""
+            ],
+            "lineageTag": "1defac34-215d-43d8-963d-4217b5ad21c7"
+          },
+          {
+            "name": "Porcentaje Sin Curso",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(",
+              "            'students_performance',",
+              "            RELATED('test_preparation_course'[course_name]) = \"completed\"",
+              "        )",
+              "    ),",
+              "    COUNTROWS('students_performance'),",
+              "    0",
+              ") * 100",
+              "",
+              ""
+            ],
+            "lineageTag": "6f0ebef0-eae4-4e09-a5ff-6bda7a6179a4"
+          },
+          {
+            "name": "Total Estudiantes",
+            "expression": [
+              "COUNT('students_performance'[id])",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "275b3a91-7390-4a69-9f57-c73a60f1e67e"
+          },
+          {
+            "name": "Estudiantes Con Curso",
+            "expression": [
+              "",
+              "COUNTROWS(",
+              "    FILTER(",
+              "        'students_performance',",
+              "        RELATED('test_preparation_course'[course_name]) = \"completed\"",
+              "    )",
+              ")",
+              "",
+              "",
+              ""
+            ],
+            "formatString": "0.0\\ %;-0.0\\ %;0.0\\ %",
+            "lineageTag": "f66274a6-f35b-4522-9d16-0b949bae5204"
+          },
+          {
+            "name": "Promedios Dinámicos",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    TRUE(),",
+              "    SELECTEDVALUE(Puntajes[Puntaje]) = \"Matemáticas\", AVERAGE('students_performance'[math_score]),",
+              "    SELECTEDVALUE(Puntajes[Puntaje]) = \"Lectura\", AVERAGE('students_performance'[reading_score]),",
+              "    SELECTEDVALUE(Puntajes[Puntaje]) = \"Escritura\", AVERAGE('students_performance'[writing_score])",
+              ")",
+              ""
+            ],
+            "lineageTag": "f3c3535d-bb7c-4927-9b2f-f35b0d04366d"
+          },
+          {
+            "name": "Porcentaje Con Curso",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(",
+              "            'students_performance',",
+              "            RELATED('test_preparation_course'[course_name]) = \"completed\"",
+              "        )",
+              "    ),",
+              "    COUNTROWS('students_performance'),",
+              "    0",
+              ") * 100",
+              ""
+            ],
+            "formatString": "0.0\\ %;-0.0\\ %;0.0\\ %",
+            "lineageTag": "50bb84a2-6387-49a1-a747-f4e2e38006d7"
+          },
+          {
+            "name": "Promedio Uso Redes Destacados",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGEX(",
+              "    FILTER(",
+              "        'students_performance',",
+              "        ('students_performance'[math_score] + ",
+              "         'students_performance'[reading_score] + ",
+              "         'students_performance'[writing_score]) / 3 > 80 &&",
+              "        NOT(ISBLANK('students_performance'[usage_hours])) &&",
+              "        'students_performance'[usage_hours] >= 0",
+              "    ),",
+              "    'students_performance'[usage_hours]",
+              ")",
+              ""
+            ],
+            "lineageTag": "7d54e796-050c-40c9-b6b8-ca973a4cac51"
+          },
+          {
+            "name": "Porcentaje Con Curso Destacados",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    COUNTROWS(",
+              "        FILTER(",
+              "            'students_performance',",
+              "            RELATED('test_preparation_course'[course_name]) = \"completed\" &&",
+              "            ('students_performance'[math_score] + ",
+              "             'students_performance'[reading_score] + ",
+              "             'students_performance'[writing_score]) / 3 > 80",
+              "        )",
+              "    ),",
+              "    COUNTROWS(",
+              "        FILTER(",
+              "            'students_performance',",
+              "            ('students_performance'[math_score] + ",
+              "             'students_performance'[reading_score] + ",
+              "             'students_performance'[writing_score]) / 3 > 80",
+              "        )",
+              "    ),",
+              "    0",
+              ") * 100",
+              "",
+              ""
+            ],
+            "lineageTag": "d9d751ef-3ef2-49db-89c1-2969e1f01b27"
+          },
+          {
+            "name": "Promedio Matemáticas por Raza",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGE('students_performance'[math_score])",
+              ""
+            ],
+            "lineageTag": "de4922c3-dfe6-4c75-a659-24407e1933c6"
+          },
+          {
+            "name": "Promedio Lectura por Raza",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGE('students_performance'[reading_score])",
+              ""
+            ],
+            "lineageTag": "d8616f27-3d2e-4c34-b5c6-d9423e1fb4d6"
+          },
+          {
+            "name": "Promedio Escritura por Raza",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "AVERAGE('students_performance'[writing_score])",
+              ""
+            ],
+            "lineageTag": "2b0bf0c7-cb5d-4bde-b725-036c25b5bc38"
+          },
+          {
+            "name": "Medida",
+            "annotations": [
+              {
+                "name": "43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c",
+                "value": "True"
+              }
+            ],
+            "lineageTag": "3202823b-ba82-45a1-96da-552d280ff10b"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "students_performance",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\students_performance.csv\"),[Delimiter=\",\", Columns=17, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"math_score\", Int64.Type}, {\"reading_score\", Int64.Type}, {\"writing_score\", Int64.Type}, {\"fecha\", type date}, {\"tiempo_redes_horas\", Int64.Type}, {\"categoria_rendimiento\", type text}, {\"generacion\", type text}, {\"id\", Int64.Type}, {\"usage_hours\", Int64.Type}, {\"impact_score\", Int64.Type}, {\"impact_category\", type text}, {\"gender_id\", Int64.Type}, {\"race_ethnicity_id\", Int64.Type}, {\"parental_level_of_education_id\", Int64.Type}, {\"lunch_id\", Int64.Type}, {\"test_preparation_course_id\", Int64.Type}, {\"social_media_platforms_id\", Int64.Type}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "test_preparation_course",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e7949e98-c927-40f3-8693-fef176ca51ef",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "course_name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3952ab56-e2fe-4180-82df-e383acf888be",
+            "sourceColumn": "course_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ba982225-b04f-4f48-844a-5ab88f79cd0e",
+        "partitions": [
+          {
+            "name": "test_preparation_course",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Csv.Document(File.Contents(\"C:\\Users\\msarm\\Desktop\\Proyecto_final\\Proyecto_integrador_bootcamp\\mike\\redes vs rendimiento\\exports\\test_preparation_course.csv\"),[Delimiter=\",\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Encabezados promovidos\" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(#\"Encabezados promovidos\",{{\"id\", Int64.Type}, {\"course_name\", type text}})",
+                "in",
+                "    #\"Tipo cambiado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Puntajes",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Puntaje",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ddaa9347-f223-49e6-b0a4-ef012c132634",
+            "sourceColumn": "Puntaje",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "6292a7a2-8bfd-41a8-98d9-6121d2ac50af",
+        "partitions": [
+          {
+            "name": "Puntajes",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WCijNK0nMSlWK1YlW8k0sSc09vLAkMzmxGCzgk5pcUlqUCGa7FicXZUJ4sQA=\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna = _t]),",
+                "    #\"Tipo cambiado\" = Table.TransformColumnTypes(Origen,{{\"Columna\", type text}}),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Tipo cambiado\",{{\"Columna\", \"Puntaje\"}}),",
+                "    #\"Filas superiores quitadas\" = Table.Skip(#\"Columnas con nombre cambiado\",1)",
+                "in",
+                "    #\"Filas superiores quitadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
