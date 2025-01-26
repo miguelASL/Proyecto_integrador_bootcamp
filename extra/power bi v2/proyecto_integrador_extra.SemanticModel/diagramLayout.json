@@ -1,0 +1,202 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1437.3589925001493,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 322.453125
+          },
+          "nodeIndex": "gender",
+          "nodeLineageTag": "def41d0f-75fe-4aa8-ba19-8d7df4676868",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 274.453125
+          },
+          "nodeIndex": "lifestyle",
+          "nodeLineageTag": "e96d78b9-78e8-45d4-8bf6-cc5b9a5c3315",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 322.453125
+          },
+          "nodeIndex": "lunch",
+          "nodeLineageTag": "56572b57-de9a-48b5-a1b1-be5a6cfb9fa2",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 322.453125
+          },
+          "nodeIndex": "parental_level_of_education",
+          "nodeLineageTag": "cef64b5a-9f5c-4348-af4a-9fa6a51f2cec",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 322.453125
+          },
+          "nodeIndex": "race_ethnicity",
+          "nodeLineageTag": "c6f0d43f-313e-4412-b01c-e88692c11026",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1420,
+            "y": 250.453125
+          },
+          "nodeIndex": "sleep_patterns",
+          "nodeLineageTag": "5d43a3fd-6984-4f4e-82a1-7be39e2b0024",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1704,
+            "y": 322.453125
+          },
+          "nodeIndex": "social_media_platforms",
+          "nodeLineageTag": "8a5d02d3-1ff2-4c62-aa78-b1e96d183d4d",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 307.36326649208871,
+            "y": 712.863986630141
+          },
+          "nodeIndex": "student_sleep_patterns",
+          "nodeLineageTag": "6c3fba37-ebab-4222-a0ab-e346c1302e45",
+          "size": {
+            "height": 300,
+            "width": 261.65445634792377
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2323.537850466585,
+            "y": 292.16802128456277
+          },
+          "nodeIndex": "students",
+          "nodeLineageTag": "b7c3218a-e0b5-498d-8a13-6dd355588a3b",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1441.0226008814382,
+            "y": 768.17289932598828
+          },
+          "nodeIndex": "students_performance",
+          "nodeLineageTag": "986a33ba-d09d-4beb-bdaf-afe69262d831",
+          "size": {
+            "height": 300,
+            "width": 315.70634830068389
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 774.71495746856,
+            "y": 870.514168986125
+          },
+          "nodeIndex": "test_preparation_course",
+          "nodeLineageTag": "ba982225-b04f-4f48-844a-5ab88f79cd0e",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2556,
+            "y": 585.24066773615
+          },
+          "nodeIndex": "Puntajes",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2840,
+            "y": 398.00051216299414
+          },
+          "nodeIndex": "Análisis_Sueño",
+          "nodeLineageTag": "5423db5d-5af1-40b6-baec-ca032f3942d9",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3124,
+            "y": 428.34426216299414
+          },
+          "nodeIndex": "Genero2",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 79.553182037699784,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

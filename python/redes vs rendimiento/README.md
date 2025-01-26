@@ -196,7 +196,7 @@ python analysis/combined_visualizations.py
 ## 📂 **Estructura del Proyecto**
 
 ```
- ┣ 📂 mike
+ ┣ 📂 python
  ┃ ┣ 📂 redes vs rendimiento
  ┃ ┃ ┣ 📂 analysis
  ┃ ┃ ┃ ┣ 📜 combined_visualizations.py
@@ -239,7 +239,3 @@ python analysis/combined_visualizations.py
 En esta carpeta se encuentran los archivos generados por los scripts en formato .csv.
 
 ---
-
-👨‍💻 **Equipo de Desarrollo:**
-
--   [**Miguel Sarmiento**](https://www.linkedin.com/in/miguel-sarmiento-levy/)

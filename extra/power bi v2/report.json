@@ -1,0 +1,711 @@
+{
+  "config": "{\"version\":\"5.53\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY18SU07\",\"version\":\"3.15\",\"type\":2},\"customTheme\":{\"name\":\"Innovate4172809880551973.json\",\"version\":\"5.60\",\"type\":1}},\"activeSectionIndex\":3,\"bookmarks\":[{\"displayName\":\"Portada\",\"name\":\"Bookmark0221be4d69b559d92e2c\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection7d30606ffb5d2f9e48b6\",\"sections\":{\"ReportSection7d30606ffb5d2f9e48b6\":{\"visualContainers\":{}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}},{\"displayName\":\"Pagina 1\",\"name\":\"Bookmarkb46ff438862e9dd2d5e1\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection\",\"sections\":{\"ReportSection\":{\"visualContainers\":{}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}},{\"displayName\":\"Pagina 2\",\"name\":\"Bookmark0be6c0d7be52ee0ee2c9\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection4795d7efc28b01167ada\",\"sections\":{\"ReportSection4795d7efc28b01167ada\":{\"visualContainers\":{}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}},{\"displayName\":\"Pagina 3\",\"name\":\"Bookmarkc397f4059739f2e728ca\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSectione067dc3afdfe512c295c\",\"sections\":{\"ReportSectione067dc3afdfe512c295c\":{\"visualContainers\":{}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}},{\"displayName\":\"Creditos\",\"name\":\"Bookmark16b0f30e573c29f81eb9\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSection106fbc826cb799de2745\",\"sections\":{\"ReportSection106fbc826cb799de2745\":{\"visualContainers\":{\"4041cd2f04d055b35ca1\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"3804a3bb94a3575f60ef\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"7cb4feed95e366a57466\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"6a5093544f27179c0a5f\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"fc8c65eed4da969031d1\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"e26fbaf696159f9259e5\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"81ec9637afc0d2670f9d\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"f0d2296e150ce18f067d\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"02fda13420147334087e\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"ba1e98fdf2941097359c\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"9f5f1131c48f8f68c0a7\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"9dc9a9edfa8333751de8\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"aa92074798a5cfe18aba\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"ea8a7db1b210ab7eed47\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"bdb31e8784f961880469\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"bdbbc34dbfff179429b6\":{\"singleVisual\":{\"visualType\":\"shape\",\"objects\":{}}},\"8a12a2ee0a5ec2c8823b\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"9c0604b2f1dacb043eca\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"1e09468ad66e3456cd87\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"b2ee0db62a109eb12385\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"0917f7f90be0cf464f8e\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"1b3c35f92675575cfd55\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"f478376bdd0b2913e6e1\":{\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{}}},\"791e548b6d61e7e0be24\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"7693e96ac84aeed7d0ed\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"f6de0044bef48e81703d\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"5f443c92017a6945b415\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[]}}],\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "14515100-1335-11eb-841f-b7522d10742096084375707.png",
+            "path": "14515100-1335-11eb-841f-b7522d10742096084375707.png",
+            "type": 100
+          },
+          {
+            "name": "15820314150281943152629046696.jpeg",
+            "path": "15820314150281943152629046696.jpeg",
+            "type": 100
+          },
+          {
+            "name": "169616641819606461682122308798.jpeg",
+            "path": "169616641819606461682122308798.jpeg",
+            "type": 100
+          },
+          {
+            "name": "17182636423875362559698200362.jpeg",
+            "path": "17182636423875362559698200362.jpeg",
+            "type": 100
+          },
+          {
+            "name": "2857309946296192510153.png",
+            "path": "2857309946296192510153.png",
+            "type": 100
+          },
+          {
+            "name": "89210810869944415101429.png",
+            "path": "89210810869944415101429.png",
+            "type": 100
+          },
+          {
+            "name": "GITHUB3851937122984337.png",
+            "path": "GITHUB3851937122984337.png",
+            "type": 100
+          },
+          {
+            "name": "Innovate4172809880551973.json",
+            "path": "Innovate4172809880551973.json",
+            "type": 201
+          },
+          {
+            "name": "LinkedIn_icon.svg10800405962121129.png",
+            "path": "LinkedIn_icon.svg10800405962121129.png",
+            "type": 100
+          },
+          {
+            "name": "Mesa_de_trabajo_8_(4)4380366247760379.png",
+            "path": "Mesa_de_trabajo_8_(4)4380366247760379.png",
+            "type": 100
+          },
+          {
+            "name": "Mesa_de_trabajo_8_(4)5816318907308418.png",
+            "path": "Mesa_de_trabajo_8_(4)5816318907308418.png",
+            "type": 100
+          },
+          {
+            "name": "foto_perfil010817799889510482.jpg",
+            "path": "foto_perfil010817799889510482.jpg",
+            "type": 100
+          },
+          {
+            "name": "image0535274116808907974.png",
+            "path": "image0535274116808907974.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY18SU07",
+            "path": "BaseThemes/CY18SU07.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}",
+      "displayName": "Análisis por Genero",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "2ff0e916626489164b64",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1854e305dcbf4acf89f4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":641.1700182815356,\"y\":216.45338208409504,\"z\":10000,\"width\":638.8299817184643,\"height\":234.00365630712977,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Caffeine_Intake)\"}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Sleep_Quality)\"}],\"Category\":[{\"queryRef\":\"Análisis_Sueño.Gender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Caffeine_Intake\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Caffeine_Intake)\",\"NativeReferenceName\":\"Caffeine_Intake\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Sleep_Quality)\",\"NativeReferenceName\":\"Sleep_Quality\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"Análisis_Sueño.Gender\",\"NativeReferenceName\":\"Gender\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Sleep_Quality)\":{\"displayName\":\"Sleep_Quality\"},\"Sum(Análisis_Sueño.Caffeine_Intake)\":{\"displayName\":\"Caffeine_Intake\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Influencia de la cafeína en el sueño de calidad'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.00,
+          "width": 638.83,
+          "x": 641.17,
+          "y": 216.45,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"468caef4ff60240e839a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":168.31496062992127,\"height\":154.20472440944883,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Mesa_de_trabajo_8_(4)5816318907308418.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 154.20,
+          "width": 168.31,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"483458ad2b014a631d79\",\"layouts\":[{\"id\":0,\"position\":{\"x\":190.48818897637796,\"y\":55.43307086614173,\"z\":6000,\"width\":806.2992125984252,\"height\":62.488188976377955,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Medida Actividad Física\"},{\"queryRef\":\"Análisis_Sueño.Medida Consumo de cafeína\"},{\"queryRef\":\"Análisis_Sueño.Medida sueño calidad\"},{\"queryRef\":\"Análisis_Sueño.Medida tiempo pantalla\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Actividad Física\"},\"Name\":\"Análisis_Sueño.Medida Actividad Física\",\"NativeReferenceName\":\"Actividad Física\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Consumo de cafeína\"},\"Name\":\"Análisis_Sueño.Medida Consumo de cafeína\",\"NativeReferenceName\":\"Consumo de cafeína\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida sueño calidad\"},\"Name\":\"Análisis_Sueño.Medida sueño calidad\",\"NativeReferenceName\":\"Sueño de Calidad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida tiempo pantalla\"},\"Name\":\"Análisis_Sueño.Medida tiempo pantalla\",\"NativeReferenceName\":\"Tiempo en Pantalla\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Actividad Física\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"},\"Análisis_Sueño.Medida Actividad Física\":{\"displayName\":\"Actividad Física\"},\"Análisis_Sueño.Medida Consumo de cafeína\":{\"displayName\":\"Consumo de cafeína\"},\"Análisis_Sueño.Medida sueño calidad\":{\"displayName\":\"Sueño de Calidad\"},\"Análisis_Sueño.Medida tiempo pantalla\":{\"displayName\":\"Tiempo en Pantalla\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"card\":[{\"properties\":{\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 62.49,
+          "width": 806.30,
+          "x": 190.49,
+          "y": 55.43,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"72796936092c718d6f0f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":168.31496062992127,\"y\":0,\"z\":5000,\"width\":854.6771653543307,\"height\":42.330708661417326,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análisis de sueño, actividad física e ingesta de cafeína en estudiantes Universitarios\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"textDecoration\":\"underline\"}},{\"value\":\" \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 42.33,
+          "width": 854.68,
+          "x": 168.31,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"9173f268021776b16fe7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.870201096892139,\"y\":216.45338208409504,\"z\":4000,\"width\":573.308957952468,\"height\":234.00365630712977,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Caffeine_Intake)\"}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Physical_Activity)\"}],\"Category\":[{\"queryRef\":\"Análisis_Sueño.Gender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Caffeine_Intake\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Caffeine_Intake)\",\"NativeReferenceName\":\"Caffeine_Intake\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Physical_Activity)\",\"NativeReferenceName\":\"Physical_Activity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"Análisis_Sueño.Gender\",\"NativeReferenceName\":\"Gender\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Physical_Activity)\":{\"displayName\":\"Physical_Activity\"},\"Sum(Análisis_Sueño.Caffeine_Intake)\":{\"displayName\":\"Caffeine_Intake\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Actividad Física y consumo de cafeína por Genero'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.00,
+          "width": 573.31,
+          "x": 12.87,
+          "y": 216.45,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"9f1e12c469e3284842dc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.870201096892139,\"y\":468.00731261425955,\"z\":11000,\"width\":576.819012797075,\"height\":245.70383912248627,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Physical_Activity)\"}],\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Sleep_Quality)\"}],\"Category\":[{\"queryRef\":\"Análisis_Sueño.Gender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Physical_Activity)\",\"NativeReferenceName\":\"Physical_Activity\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Sleep_Quality)\",\"NativeReferenceName\":\"Sleep_Quality\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"Análisis_Sueño.Gender\",\"NativeReferenceName\":\"Gender\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Physical_Activity)\":{\"displayName\":\"Physical_Activity\"},\"Sum(Análisis_Sueño.Sleep_Quality)\":{\"displayName\":\"Sleep_Quality\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Influencia de la actividad física en el sueño de calidad'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 245.70,
+          "width": 576.82,
+          "x": 12.87,
+          "y": 468.01,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"a785e2797ff8bda5d17b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1022.992125984252,\"y\":55.43307086614173,\"z\":0,\"width\":257.00787401574803,\"height\":124.97637795275591,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Análisis_Sueño.Cantidad_Estudiantes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Cantidad_Estudiantes\"},\"Name\":\"Análisis_Sueño.Cantidad_Estudiantes\",\"NativeReferenceName\":\"Cantidad de Estudiantes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Cantidad_Estudiantes\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}}},\"selector\":{\"id\":\"default\"}}],\"layout\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"19D\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 124.98,
+          "width": 257.01,
+          "x": 1022.99,
+          "y": 55.43,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"d78bdfc47b3b5fd1d35c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":952.3948811700183,\"y\":480.8775137111517,\"z\":2000,\"width\":317.07495429616085,\"height\":160.2925045703839,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Age\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Age\"},\"Name\":\"Análisis_Sueño.Age\",\"NativeReferenceName\":\"Age\"}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cant.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Age'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"null\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FAF6F6'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 160.29,
+          "width": 317.07,
+          "x": 952.39,
+          "y": 480.88,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"ddb0269f7d51adc67ba4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":182.52285191956125,\"y\":133.382084095064,\"z\":7000,\"width\":806.1425959780621,\"height\":63.180987202925046,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Medida promedio de actividad física\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de consumo de cafeína\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de calidad de sueño\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de tiempo en pantalla\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de actividad física\"},\"Name\":\"Análisis_Sueño.Medida promedio de actividad física\",\"NativeReferenceName\":\"Prom. Actividad Física\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de consumo de cafeína\"},\"Name\":\"Análisis_Sueño.Medida promedio de consumo de cafeína\",\"NativeReferenceName\":\"Prom. Consumo de Cafeína\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de calidad de sueño\"},\"Name\":\"Análisis_Sueño.Medida promedio de calidad de sueño\",\"NativeReferenceName\":\"Prom. Sueño de Calidad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de tiempo en pantalla\"},\"Name\":\"Análisis_Sueño.Medida promedio de tiempo en pantalla\",\"NativeReferenceName\":\"Prom. Tiempo en Pantalla\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de actividad física\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"},\"Análisis_Sueño.Medida promedio de actividad física\":{\"displayName\":\"Prom. Actividad Física\"},\"Análisis_Sueño.Medida promedio de consumo de cafeína\":{\"displayName\":\"Prom. Consumo de Cafeína\"},\"Análisis_Sueño.Medida promedio de calidad de sueño\":{\"displayName\":\"Prom. Sueño de Calidad\"},\"Análisis_Sueño.Medida promedio de tiempo en pantalla\":{\"displayName\":\"Prom. Tiempo en Pantalla\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"card\":[{\"properties\":{\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FAF6F6'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 63.18,
+          "width": 806.14,
+          "x": 182.52,
+          "y": 133.38,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"df1ebedc88668eae5b5f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":202.41316270566728,\"z\":8000,\"width\":1280,\"height\":12.870201096892139,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 12.87,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 202.41,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"e2104509d0468c83b800\",\"layouts\":[{\"id\":0,\"position\":{\"x\":171.6705882352941,\"y\":117.45882352941176,\"z\":9000,\"width\":835.2627450980392,\"height\":16.062745098039215,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 16.06,
+          "width": 835.26,
+          "x": 171.67,
+          "y": 117.46,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"e795e6175082dd499b6a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":659.8903107861059,\"y\":480.8775137111517,\"z\":3000,\"width\":243.36380255941498,\"height\":180.18281535648993,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.University_Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"},\"Name\":\"Análisis_Sueño.University_Year\",\"NativeReferenceName\":\"University Year\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cant.\"},\"Análisis_Sueño.University_Year\":{\"displayName\":\"University Year\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'University Year'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"null\"}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.18,
+          "width": 243.36,
+          "x": 659.89,
+          "y": 480.88,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}",
+      "displayName": "Análisis por edad",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "3eaf4b89bf890a6aa8f6",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0d6896c27e68abb655e4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":171.6705882352941,\"y\":117.45882352941176,\"z\":9000,\"width\":835.2627450980392,\"height\":16.062745098039215,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 16.06,
+          "width": 835.26,
+          "x": 171.67,
+          "y": 117.46,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"48d26a18bee9e5928c28\",\"layouts\":[{\"id\":0,\"position\":{\"x\":168.31496062992127,\"y\":0,\"z\":5000,\"width\":854.6771653543307,\"height\":42.330708661417326,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análisis de sueño, actividad física e ingesta de cafeína en estudiantes Universitarios\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"textDecoration\":\"underline\"}},{\"value\":\" \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 42.33,
+          "width": 854.68,
+          "x": 168.31,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"526c6737a50f8ef11607\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.870201096892139,\"y\":468.00731261425955,\"z\":11000,\"width\":576.819012797075,\"height\":245.70383912248627,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Análisis_Sueño.Age\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Physical_Activity)\"}],\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Sleep_Quality)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Age\"},\"Name\":\"Análisis_Sueño.Age\",\"NativeReferenceName\":\"Age\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Physical_Activity)\",\"NativeReferenceName\":\"Physical_Activity\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Sleep_Quality)\",\"NativeReferenceName\":\"Sleep_Quality\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Sleep_Quality)\":{\"displayName\":\"Sleep_Quality\"},\"Sum(Análisis_Sueño.Physical_Activity)\":{\"displayName\":\"Physical_Activity\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Influencia de la actividad física en el sueño de calidad'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 245.70,
+          "width": 576.82,
+          "x": 12.87,
+          "y": 468.01,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"6c0ab55c68ff1483874d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":952.3948811700183,\"y\":480.8775137111517,\"z\":2000,\"width\":317.07495429616085,\"height\":160.2925045703839,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Gender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"Análisis_Sueño.Gender\",\"NativeReferenceName\":\"Gender\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cant.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gender'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"null\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FAF6F6'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 160.29,
+          "width": 317.07,
+          "x": 952.39,
+          "y": 480.88,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"74e4fe06e15a5f63f413\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":168.31496062992127,\"height\":154.20472440944883,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Mesa_de_trabajo_8_(4)5816318907308418.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 154.20,
+          "width": 168.31,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"7ebbc783949559a28a4f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":190.48818897637796,\"y\":55.43307086614173,\"z\":6000,\"width\":806.2992125984252,\"height\":62.488188976377955,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Medida Actividad Física\"},{\"queryRef\":\"Análisis_Sueño.Medida Consumo de cafeína\"},{\"queryRef\":\"Análisis_Sueño.Medida sueño calidad\"},{\"queryRef\":\"Análisis_Sueño.Medida tiempo pantalla\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Actividad Física\"},\"Name\":\"Análisis_Sueño.Medida Actividad Física\",\"NativeReferenceName\":\"Actividad Física\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Consumo de cafeína\"},\"Name\":\"Análisis_Sueño.Medida Consumo de cafeína\",\"NativeReferenceName\":\"Consumo de cafeína\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida sueño calidad\"},\"Name\":\"Análisis_Sueño.Medida sueño calidad\",\"NativeReferenceName\":\"Sueño de Calidad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida tiempo pantalla\"},\"Name\":\"Análisis_Sueño.Medida tiempo pantalla\",\"NativeReferenceName\":\"Tiempo en Pantalla\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Actividad Física\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"},\"Análisis_Sueño.Medida Actividad Física\":{\"displayName\":\"Actividad Física\"},\"Análisis_Sueño.Medida Consumo de cafeína\":{\"displayName\":\"Consumo de cafeína\"},\"Análisis_Sueño.Medida sueño calidad\":{\"displayName\":\"Sueño de Calidad\"},\"Análisis_Sueño.Medida tiempo pantalla\":{\"displayName\":\"Tiempo en Pantalla\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"card\":[{\"properties\":{\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 62.49,
+          "width": 806.30,
+          "x": 190.49,
+          "y": 55.43,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"8f50fc14641258534a05\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1022.992125984252,\"y\":55.43307086614173,\"z\":0,\"width\":257.00787401574803,\"height\":124.97637795275591,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Análisis_Sueño.Cantidad_Estudiantes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Cantidad_Estudiantes\"},\"Name\":\"Análisis_Sueño.Cantidad_Estudiantes\",\"NativeReferenceName\":\"Cantidad de Estudiantes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Cantidad_Estudiantes\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}}},\"selector\":{\"id\":\"default\"}}],\"layout\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"19D\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 124.98,
+          "width": 257.01,
+          "x": 1022.99,
+          "y": 55.43,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a98f6fbe1c3bf3271cb7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":182.52285191956125,\"y\":133.382084095064,\"z\":7000,\"width\":806.1425959780621,\"height\":63.180987202925046,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Medida promedio de actividad física\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de consumo de cafeína\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de calidad de sueño\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de tiempo en pantalla\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de actividad física\"},\"Name\":\"Análisis_Sueño.Medida promedio de actividad física\",\"NativeReferenceName\":\"Prom. Actividad Física\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de consumo de cafeína\"},\"Name\":\"Análisis_Sueño.Medida promedio de consumo de cafeína\",\"NativeReferenceName\":\"Prom. Consumo de Cafeína\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de calidad de sueño\"},\"Name\":\"Análisis_Sueño.Medida promedio de calidad de sueño\",\"NativeReferenceName\":\"Prom. Sueño de Calidad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de tiempo en pantalla\"},\"Name\":\"Análisis_Sueño.Medida promedio de tiempo en pantalla\",\"NativeReferenceName\":\"Prom. Tiempo en Pantalla\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de actividad física\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"},\"Análisis_Sueño.Medida promedio de actividad física\":{\"displayName\":\"Prom. Actividad Física\"},\"Análisis_Sueño.Medida promedio de consumo de cafeína\":{\"displayName\":\"Prom. Consumo de Cafeína\"},\"Análisis_Sueño.Medida promedio de calidad de sueño\":{\"displayName\":\"Prom. Sueño de Calidad\"},\"Análisis_Sueño.Medida promedio de tiempo en pantalla\":{\"displayName\":\"Prom. Tiempo en Pantalla\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"card\":[{\"properties\":{\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FAF6F6'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 63.18,
+          "width": 806.14,
+          "x": 182.52,
+          "y": 133.38,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"c1fdc63cbe95de95006b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":641.1700182815356,\"y\":216.45338208409504,\"z\":10000,\"width\":638.8299817184643,\"height\":234.00365630712977,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Análisis_Sueño.Age\",\"active\":true}],\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Caffeine_Intake)\"}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Sleep_Quality)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Age\"},\"Name\":\"Análisis_Sueño.Age\",\"NativeReferenceName\":\"Age\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Caffeine_Intake\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Caffeine_Intake)\",\"NativeReferenceName\":\"Caffeine_Intake\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Sleep_Quality)\",\"NativeReferenceName\":\"Sleep_Quality\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Sleep_Quality)\":{\"displayName\":\"Sleep_Quality\"},\"Sum(Análisis_Sueño.Caffeine_Intake)\":{\"displayName\":\"Caffeine_Intake\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Influencia de la cafeína en el sueño de calidad'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.00,
+          "width": 638.83,
+          "x": 641.17,
+          "y": 216.45,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"cb13a4a1b6dfc8d1479e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.870201096892139,\"y\":216.45338208409504,\"z\":4000,\"width\":573.308957952468,\"height\":234.00365630712977,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Análisis_Sueño.Age\",\"active\":true}],\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Caffeine_Intake)\"}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Physical_Activity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Age\"},\"Name\":\"Análisis_Sueño.Age\",\"NativeReferenceName\":\"Age\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Caffeine_Intake\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Caffeine_Intake)\",\"NativeReferenceName\":\"Caffeine_Intake\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Physical_Activity)\",\"NativeReferenceName\":\"Physical_Activity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Physical_Activity)\":{\"displayName\":\"Physical_Activity\"},\"Sum(Análisis_Sueño.Caffeine_Intake)\":{\"displayName\":\"Caffeine_Intake\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Actividad Física y consumo de cafeína por Edad'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.00,
+          "width": 573.31,
+          "x": 12.87,
+          "y": 216.45,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"dca73b87b1c8bee1ab07\",\"layouts\":[{\"id\":0,\"position\":{\"x\":659.8903107861059,\"y\":480.8775137111517,\"z\":3000,\"width\":243.36380255941498,\"height\":180.18281535648993,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.University_Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"},\"Name\":\"Análisis_Sueño.University_Year\",\"NativeReferenceName\":\"University Year\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cant.\"},\"Análisis_Sueño.University_Year\":{\"displayName\":\"University Year\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'University Year'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"null\"}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.18,
+          "width": 243.36,
+          "x": 659.89,
+          "y": 480.88,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"ed5fc6a7077a73de9d65\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":202.41316270566728,\"z\":8000,\"width\":1280,\"height\":12.870201096892139,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 12.87,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 202.41,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}",
+      "displayName": "Análisis por Año Universidad",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "4eb403dfa8f572f5034a",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"05d2c9e4efce67a2219b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":168.31496062992127,\"height\":154.20472440944883,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Mesa_de_trabajo_8_(4)5816318907308418.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 154.20,
+          "width": 168.31,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"0f6dc1d60a279ee4e241\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":202.41316270566728,\"z\":8000,\"width\":1280,\"height\":12.870201096892139,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 12.87,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 202.41,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"52bd0ccfcf683b518f39\",\"layouts\":[{\"id\":0,\"position\":{\"x\":641.1700182815356,\"y\":216.45338208409504,\"z\":10000,\"width\":638.8299817184643,\"height\":234.00365630712977,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Caffeine_Intake)\"}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Sleep_Quality)\"}],\"Category\":[{\"queryRef\":\"Análisis_Sueño.University_Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Caffeine_Intake\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Caffeine_Intake)\",\"NativeReferenceName\":\"Caffeine_Intake\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Sleep_Quality)\",\"NativeReferenceName\":\"Sleep_Quality\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"},\"Name\":\"Análisis_Sueño.University_Year\",\"NativeReferenceName\":\"University_Year\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Sleep_Quality)\":{\"displayName\":\"Sleep_Quality\"},\"Sum(Análisis_Sueño.Caffeine_Intake)\":{\"displayName\":\"Caffeine_Intake\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Influencia de la cafeína en el sueño de calidad'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.00,
+          "width": 638.83,
+          "x": 641.17,
+          "y": 216.45,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"59e562e2a150daeaff28\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.870201096892139,\"y\":216.45338208409504,\"z\":4000,\"width\":573.308957952468,\"height\":234.00365630712977,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Caffeine_Intake)\"}],\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Physical_Activity)\"}],\"Category\":[{\"queryRef\":\"Análisis_Sueño.University_Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Caffeine_Intake\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Caffeine_Intake)\",\"NativeReferenceName\":\"Caffeine_Intake\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Physical_Activity)\",\"NativeReferenceName\":\"Physical_Activity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"},\"Name\":\"Análisis_Sueño.University_Year\",\"NativeReferenceName\":\"University_Year\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Physical_Activity)\":{\"displayName\":\"Physical_Activity\"},\"Sum(Análisis_Sueño.Caffeine_Intake)\":{\"displayName\":\"Caffeine_Intake\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Actividad Física y consumo de cafeína por University_Year'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 234.00,
+          "width": 573.31,
+          "x": 12.87,
+          "y": 216.45,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"7c2e822ce8862b56494e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":190.48818897637796,\"y\":55.43307086614173,\"z\":6000,\"width\":806.2992125984252,\"height\":62.488188976377955,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Medida Actividad Física\"},{\"queryRef\":\"Análisis_Sueño.Medida Consumo de cafeína\"},{\"queryRef\":\"Análisis_Sueño.Medida sueño calidad\"},{\"queryRef\":\"Análisis_Sueño.Medida tiempo pantalla\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Actividad Física\"},\"Name\":\"Análisis_Sueño.Medida Actividad Física\",\"NativeReferenceName\":\"Actividad Física\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Consumo de cafeína\"},\"Name\":\"Análisis_Sueño.Medida Consumo de cafeína\",\"NativeReferenceName\":\"Consumo de cafeína\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida sueño calidad\"},\"Name\":\"Análisis_Sueño.Medida sueño calidad\",\"NativeReferenceName\":\"Sueño de Calidad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida tiempo pantalla\"},\"Name\":\"Análisis_Sueño.Medida tiempo pantalla\",\"NativeReferenceName\":\"Tiempo en Pantalla\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Actividad Física\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"},\"Análisis_Sueño.Medida Actividad Física\":{\"displayName\":\"Actividad Física\"},\"Análisis_Sueño.Medida Consumo de cafeína\":{\"displayName\":\"Consumo de cafeína\"},\"Análisis_Sueño.Medida sueño calidad\":{\"displayName\":\"Sueño de Calidad\"},\"Análisis_Sueño.Medida tiempo pantalla\":{\"displayName\":\"Tiempo en Pantalla\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"card\":[{\"properties\":{\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"dataLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 62.49,
+          "width": 806.30,
+          "x": 190.49,
+          "y": 55.43,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"92f81ff6854d34098dcc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":659.8903107861059,\"y\":480.8775137111517,\"z\":3000,\"width\":243.36380255941498,\"height\":180.18281535648993,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Gender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"Análisis_Sueño.Gender\",\"NativeReferenceName\":\"Gender\"}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cant.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gender'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"null\"}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.18,
+          "width": 243.36,
+          "x": 659.89,
+          "y": 480.88,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"9a57d8191cf53edf5da2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":171.6705882352941,\"y\":117.45882352941176,\"z\":9000,\"width\":835.2627450980392,\"height\":16.062745098039215,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 16.06,
+          "width": 835.26,
+          "x": 171.67,
+          "y": 117.46,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"ba5221b5db03ad3117c2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":952.3948811700183,\"y\":480.8775137111517,\"z\":2000,\"width\":317.07495429616085,\"height\":160.2925045703839,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Age\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Age\"},\"Name\":\"Análisis_Sueño.Age\",\"NativeReferenceName\":\"Age\"}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cant.\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"items\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"6D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Age'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"null\"}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"11D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FAF6F6'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 160.29,
+          "width": 317.07,
+          "x": 952.39,
+          "y": 480.88,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"c305275899eb78fdf7cf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":168.31496062992127,\"y\":0,\"z\":5000,\"width\":854.6771653543307,\"height\":42.330708661417326,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Análisis de sueño, actividad física e ingesta de cafeína en estudiantes Universitarios\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\",\"textDecoration\":\"underline\"}},{\"value\":\" \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 42.33,
+          "width": 854.68,
+          "x": 168.31,
+          "y": 0.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"d106e8285c7f5ceba8cd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.870201096892139,\"y\":468.00731261425955,\"z\":11000,\"width\":576.819012797075,\"height\":245.70383912248627,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Análisis_Sueño.Physical_Activity)\"}],\"Y2\":[{\"queryRef\":\"Sum(Análisis_Sueño.Sleep_Quality)\"}],\"Category\":[{\"queryRef\":\"Análisis_Sueño.University_Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Physical_Activity)\",\"NativeReferenceName\":\"Physical_Activity\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Sleep_Quality\"}},\"Function\":0},\"Name\":\"Sum(Análisis_Sueño.Sleep_Quality)\",\"NativeReferenceName\":\"Sleep_Quality\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"University_Year\"},\"Name\":\"Análisis_Sueño.University_Year\",\"NativeReferenceName\":\"University_Year\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Physical_Activity\"}},\"Function\":0}}}]},\"columnProperties\":{\"Sum(Análisis_Sueño.Physical_Activity)\":{\"displayName\":\"Physical_Activity\"},\"Sum(Análisis_Sueño.Sleep_Quality)\":{\"displayName\":\"Sleep_Quality\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Influencia de la actividad física en el sueño de calidad'\"}}},\"underline\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 245.70,
+          "width": 576.82,
+          "x": 12.87,
+          "y": 468.01,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"df94d20b1e89cc998653\",\"layouts\":[{\"id\":0,\"position\":{\"x\":182.52285191956125,\"y\":133.382084095064,\"z\":7000,\"width\":806.1425959780621,\"height\":63.180987202925046,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Análisis_Sueño.Medida promedio de actividad física\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de consumo de cafeína\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de calidad de sueño\"},{\"queryRef\":\"Análisis_Sueño.Medida promedio de tiempo en pantalla\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de actividad física\"},\"Name\":\"Análisis_Sueño.Medida promedio de actividad física\",\"NativeReferenceName\":\"Prom. Actividad Física\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de consumo de cafeína\"},\"Name\":\"Análisis_Sueño.Medida promedio de consumo de cafeína\",\"NativeReferenceName\":\"Prom. Consumo de Cafeína\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de calidad de sueño\"},\"Name\":\"Análisis_Sueño.Medida promedio de calidad de sueño\",\"NativeReferenceName\":\"Prom. Sueño de Calidad\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de tiempo en pantalla\"},\"Name\":\"Análisis_Sueño.Medida promedio de tiempo en pantalla\",\"NativeReferenceName\":\"Prom. Tiempo en Pantalla\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida promedio de actividad física\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"},\"Análisis_Sueño.Medida promedio de actividad física\":{\"displayName\":\"Prom. Actividad Física\"},\"Análisis_Sueño.Medida promedio de consumo de cafeína\":{\"displayName\":\"Prom. Consumo de Cafeína\"},\"Análisis_Sueño.Medida promedio de calidad de sueño\":{\"displayName\":\"Prom. Sueño de Calidad\"},\"Análisis_Sueño.Medida promedio de tiempo en pantalla\":{\"displayName\":\"Prom. Tiempo en Pantalla\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"17D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"card\":[{\"properties\":{\"barShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"barColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#000000'\"}}}}},\"barWeight\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"cardPadding\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}},\"foreground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FAF6F6'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}],\"visualHeaderTooltip\":[{\"properties\":{\"themedBackground\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#323447'\"}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 63.18,
+          "width": 806.14,
+          "x": 182.52,
+          "y": 133.38,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"ff8692baed08839a6d91\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1022.992125984252,\"y\":55.43307086614173,\"z\":0,\"width\":257.00787401574803,\"height\":124.97637795275591,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Análisis_Sueño.Cantidad_Estudiantes\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Análisis_Sueño\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Cantidad_Estudiantes\"},\"Name\":\"Análisis_Sueño.Cantidad_Estudiantes\",\"NativeReferenceName\":\"Cantidad de Estudiantes\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Medida Cantidad_Estudiantes\"}}}]},\"columnProperties\":{\"Análisis_Sueño.Cantidad_Estudiantes\":{\"displayName\":\"Cantidad de Estudiantes\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}}},\"selector\":{\"id\":\"default\"}}],\"layout\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'middle'\"}}}}}],\"accentBar\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"19D\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 124.98,
+          "width": 257.01,
+          "x": 1022.99,
+          "y": 55.43,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Creditos",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection106fbc826cb799de2745",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"02fda13420147334087e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":862.6108374384237,\"y\":175.53201970443376,\"z\":8000,\"width\":78.91625615763547,\"height\":73.5960591133005,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"LinkedIn_icon.svg10800405962121129.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/jose-mendez-34952a102/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 73.60,
+          "width": 78.92,
+          "x": 862.61,
+          "y": 175.53,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"0917f7f90be0cf464f8e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1010,\"y\":502,\"z\":20000,\"width\":149,\"height\":152,\"tabOrder\":20000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"17182636423875362559698200362.jpeg\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 152.00,
+          "width": 149.00,
+          "x": 1010.00,
+          "y": 502.00,
+          "z": 20000.00
+        },
+        {
+          "config": "{\"name\":\"1b3c35f92675575cfd55\",\"layouts\":[{\"id\":0,\"position\":{\"x\":468,\"y\":0,\"z\":21000,\"width\":337,\"height\":701,\"tabOrder\":21000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"image0535274116808907974.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 701.00,
+          "width": 337.00,
+          "x": 468.00,
+          "y": 0.00,
+          "z": 21000.00
+        },
+        {
+          "config": "{\"name\":\"1e09468ad66e3456cd87\",\"layouts\":[{\"id\":0,\"position\":{\"x\":893,\"y\":448,\"z\":18000,\"width\":269,\"height\":43,\"tabOrder\":18000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Luciano Fernandez Peña\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 43.00,
+          "width": 269.00,
+          "x": 893.00,
+          "y": 448.00,
+          "z": 18000.00
+        },
+        {
+          "config": "{\"name\":\"3804a3bb94a3575f60ef\",\"layouts\":[{\"id\":0,\"position\":{\"x\":76.19704433497546,\"y\":36.507389162561594,\"z\":1000,\"width\":372.41379310344826,\"height\":236.74876847290642,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/miguel-sarmiento-levy/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 236.75,
+          "width": 372.41,
+          "x": 76.20,
+          "y": 36.51,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"4041cd2f04d055b35ca1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":25,\"y\":15,\"z\":0,\"width\":1223,\"height\":686,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 686.00,
+          "width": 1223.00,
+          "x": 25.00,
+          "y": 15.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"5f443c92017a6945b415\",\"layouts\":[{\"id\":0,\"position\":{\"x\":543,\"y\":53,\"z\":26000,\"width\":188,\"height\":188,\"tabOrder\":26000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"14515100-1335-11eb-841f-b7522d10742096084375707.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 188.00,
+          "width": 188.00,
+          "x": 543.00,
+          "y": 53.00,
+          "z": 26000.00
+        },
+        {
+          "config": "{\"name\":\"6a5093544f27179c0a5f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":242.89655172413762,\"y\":87.93596059113301,\"z\":3000,\"width\":153.39901477832512,\"height\":152.51231527093597,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"foto_perfil010817799889510482.jpg\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 152.51,
+          "width": 153.40,
+          "x": 242.90,
+          "y": 87.94,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"7693e96ac84aeed7d0ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":934,\"y\":287,\"z\":24000,\"width\":161,\"height\":145,\"tabOrder\":24000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"2857309946296192510153.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 145.00,
+          "width": 161.00,
+          "x": 934.00,
+          "y": 287.00,
+          "z": 24000.00
+        },
+        {
+          "config": "{\"name\":\"791e548b6d61e7e0be24\",\"layouts\":[{\"id\":0,\"position\":{\"x\":178,\"y\":287,\"z\":23000,\"width\":142,\"height\":145,\"tabOrder\":23000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"89210810869944415101429.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 145.00,
+          "width": 142.00,
+          "x": 178.00,
+          "y": 287.00,
+          "z": 23000.00
+        },
+        {
+          "config": "{\"name\":\"7cb4feed95e366a57466\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100.13793103448293,\"y\":79.95566502463055,\"z\":2000,\"width\":88.66995073891626,\"height\":93.99014778325123,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"GITHUB3851937122984337.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://github.com/miguelASL/Proyecto_integrador_bootcamp'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 93.99,
+          "width": 88.67,
+          "x": 100.14,
+          "y": 79.96,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"81ec9637afc0d2670f9d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":829,\"y\":37,\"z\":6000,\"width\":372,\"height\":237,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/miguel-sarmiento-levy/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 237.00,
+          "width": 372.00,
+          "x": 829.00,
+          "y": 37.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"8a12a2ee0a5ec2c8823b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":872,\"y\":494,\"z\":16000,\"width\":88,\"height\":94,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"GITHUB3851937122984337.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://github.com/miguelASL/Proyecto_integrador_bootcamp'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 94.00,
+          "width": 88.00,
+          "x": 872.00,
+          "y": 494.00,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"9c0604b2f1dacb043eca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":876,\"y\":588,\"z\":17000,\"width\":79,\"height\":74,\"tabOrder\":17000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"LinkedIn_icon.svg10800405962121129.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/lucianofernandezpe%C3%B1a/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 74.00,
+          "width": 79.00,
+          "x": 876.00,
+          "y": 588.00,
+          "z": 17000.00
+        },
+        {
+          "config": "{\"name\":\"9dc9a9edfa8333751de8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":76,\"y\":447,\"z\":11000,\"width\":372,\"height\":237,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/miguel-sarmiento-levy/'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 237.00,
+          "width": 372.00,
+          "x": 76.00,
+          "y": 447.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"9f5f1131c48f8f68c0a7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1010.443349753695,\"y\":90.1625615763547,\"z\":10000,\"width\":148.9655172413793,\"height\":152.51231527093597,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"15820314150281943152629046696.jpeg\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 152.51,
+          "width": 148.97,
+          "x": 1010.44,
+          "y": 90.16,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"aa92074798a5cfe18aba\",\"layouts\":[{\"id\":0,\"position\":{\"x\":110,\"y\":494,\"z\":12000,\"width\":89,\"height\":94,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"GITHUB3851937122984337.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://github.com/miguelASL/Proyecto_integrador_bootcamp'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 94.00,
+          "width": 89.00,
+          "x": 110.00,
+          "y": 494.00,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"b2ee0db62a109eb12385\",\"layouts\":[{\"id\":0,\"position\":{\"x\":243,\"y\":501,\"z\":19000,\"width\":153,\"height\":154,\"tabOrder\":19000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"169616641819606461682122308798.jpeg\"}}}}}],\"imageScaling\":[{\"properties\":{\"imageScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'Fill'\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 154.00,
+          "width": 153.00,
+          "x": 243.00,
+          "y": 501.00,
+          "z": 19000.00
+        },
+        {
+          "config": "{\"name\":\"ba1e98fdf2941097359c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":945,\"y\":39,\"z\":9000,\"width\":165,\"height\":43,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"José Méndez\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 43.00,
+          "width": 165.00,
+          "x": 945.00,
+          "y": 39.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"bdb31e8784f961880469\",\"layouts\":[{\"id\":0,\"position\":{\"x\":173,\"y\":447,\"z\":14000,\"width\":178,\"height\":44,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Martin Simonet\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 44.00,
+          "width": 178.00,
+          "x": 173.00,
+          "y": 447.00,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"bdbbc34dbfff179429b6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":829,\"y\":448,\"z\":15000,\"width\":372,\"height\":236,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRounded'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}},\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/miguel-sarmiento-levy/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 236.00,
+          "width": 372.00,
+          "x": 829.00,
+          "y": 448.00,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"e26fbaf696159f9259e5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":163.09359605911294,\"y\":34.73399014778326,\"z\":5000,\"width\":197.73399014778326,\"height\":43.44827586206897,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Miguel Sarmiento\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"16pt\",\"textDecoration\":\"underline\",\"color\":\"#000000\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 43.45,
+          "width": 197.73,
+          "x": 163.09,
+          "y": 34.73,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"ea8a7db1b210ab7eed47\",\"layouts\":[{\"id\":0,\"position\":{\"x\":110,\"y\":588,\"z\":13000,\"width\":89,\"height\":73,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"LinkedIn_icon.svg10800405962121129.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/martin-simonet/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 73.00,
+          "width": 89.00,
+          "x": 110.00,
+          "y": 588.00,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"f0d2296e150ce18f067d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":852.8571428571429,\"y\":81.54187192118249,\"z\":7000,\"width\":88.66995073891626,\"height\":93.99014778325123,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"GITHUB3851937122984337.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://github.com/miguelASL/Proyecto_integrador_bootcamp'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 93.99,
+          "width": 88.67,
+          "x": 852.86,
+          "y": 81.54,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"f478376bdd0b2913e6e1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":555,\"y\":537,\"z\":22000,\"width\":250,\"height\":77,\"tabOrder\":22000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Edición 7.0\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"32pt\"}}]}]}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"100D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 77.00,
+          "width": 250.00,
+          "x": 555.00,
+          "y": 537.00,
+          "z": 22000.00
+        },
+        {
+          "config": "{\"name\":\"f6de0044bef48e81703d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":494,\"y\":535,\"z\":25000,\"width\":77,\"height\":79,\"tabOrder\":25000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Mesa_de_trabajo_8_(4)4380366247760379.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 79.00,
+          "width": 77.00,
+          "x": 494.00,
+          "y": 535.00,
+          "z": 25000.00
+        },
+        {
+          "config": "{\"name\":\"fc8c65eed4da969031d1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":100,\"y\":174,\"z\":4000,\"width\":89,\"height\":74,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"LinkedIn_icon.svg10800405962121129.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.linkedin.com/in/miguel-sarmiento-levy/'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 74.00,
+          "width": 89.00,
+          "x": 100.00,
+          "y": 174.00,
+          "z": 4000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Innovate4172809880551973.json"
+}
