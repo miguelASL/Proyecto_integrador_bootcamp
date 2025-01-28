@@ -40,19 +40,14 @@ Este análisis responde preguntas como:
 
 ## ⚙️ **Configuración del Entorno**
 
-### 1️⃣ Clona el repositorio:
 
-```bash
-git clone https://github.com/miguelASL/Proyecto_integrador_bootcamp.git
-```
-
-### 2️⃣ Instala las dependencias:
+### Instala las dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Ejecuta el script principal:
+### Ejecuta el script principal:
 
 ```bash
 python main.py
