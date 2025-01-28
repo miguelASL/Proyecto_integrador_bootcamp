@@ -62,38 +62,23 @@ python main.py
 
 ## 📈 **Análisis y Visualizaciones**
 
-### Distribución de puntuaciones 🎯
-
-Exploramos cómo se distribuyen las puntuaciones en matemáticas, lectura y escritura.
-
-```python
-import plotly.express as px
-
-fig = px.histogram(df_long, x="Score", color="Subject", barmode="overlay")
-fig.update_layout(title="Distribución de Puntuaciones")
-fig.show()
-```
 
 💡 Observaciones:
 
+```bash
+python analysis/exploratory_analysis.py
+```
+
 -   Las puntuaciones están centradas en valores medios (~70 puntos).
 -   Matemáticas muestra mayor dispersión comparada con lectura y escritura.
+
 
 ## 🔗 2. Matriz de Correlación
 
 Evaluamos la relación entre las puntuaciones.
 
-```python
-import plotly.graph_objects as go
-
-fig = go.Figure(data=go.Heatmap(
-    z=correlation_matrix.values,
-    x=correlation_matrix.columns,
-    y=correlation_matrix.columns,
-    colorscale="Viridis"
-))
-fig.update_layout(title="Matriz de Correlación")
-fig.show()
+```bash
+python analysis/interactive_correlation.py
 ```
 
 💡 Observaciones:
@@ -105,10 +90,8 @@ fig.show()
 
 Analizamos el impacto de un curso de preparación en las puntuaciones.
 
-```python
-sns.boxplot(data=melted_df, x="test_prep_course", y="score", hue="subject")
-plt.title("Impacto del Curso de Preparación en Puntuaciones")
-plt.show()
+```bash
+python analysis/test_prep_analysis.py
 ```
 
 💡 Observaciones:
@@ -119,12 +102,8 @@ plt.show()
 
 Identificamos a los estudiantes con mejores puntuaciones.
 
-```python
-threshold = df["avg_score"].quantile(0.9)
-plt.axvline(threshold, color="red", linestyle="--")
-plt.hist(df["avg_score"], bins=10, edgecolor="black")
-plt.title("Distribución de Promedios (Percentil 90)")
-plt.show()
+```bash
+python analysis/test_prep_analysis.py
 ```
 
 💡 Observaciones:
@@ -135,13 +114,8 @@ plt.show()
 
 Creamos un gráfico interactivo con múltiples visualizaciones.
 
-```python
-fig, axes = plt.subplots(2, 2, figsize=(12, 10))
-axes[0, 0].hist(df["math_score"], bins=10, color="blue", edgecolor="black")
-axes[0, 1].boxplot([df["math_score"], df["reading_score"], df["writing_score"]])
-axes[1, 0].scatter(df["math_score"], df["reading_score"], alpha=0.6, color="green")
-plt.tight_layout()
-plt.show()
+```bash
+python analysis/interactive_distribution.py
 ```
 
 💡 Observaciones:
@@ -163,33 +137,6 @@ plt.show()
 4. Estudiantes Destacados:
     - El percentil 90 es un buen umbral para identificar alto rendimiento (~85 puntos).
 
----
-
-## 🚀 **Cómo Ejecutar**
-
-1. Ejecución de los análisis:
-
-```bash
-python analysis/interactive_distribution.py
-```
-
-2. Visualización de la matriz de correlación:
-
-```bash
-python analysis/interactive_correlation.py
-```
-
-3. Relaciones y comparaciones:
-
-```bash
-python analysis/score_relationship.py
-```
-
-4. Visualización combinada:
-
-```bash
-python analysis/combined_visualizations.py
-```
 
 ---
 
@@ -199,14 +146,11 @@ python analysis/combined_visualizations.py
  ┣ 📂 python
  ┃ ┣ 📂 redes vs rendimiento
  ┃ ┃ ┣ 📂 analysis
- ┃ ┃ ┃ ┣ 📜 combined_visualizations.py
- ┃ ┃ ┃ ┣ 📜 ethnicity_analysis.py
+ ┃ ┃ ┃ ┃ 📜 ethnicity_analysis.py
  ┃ ┃ ┃ ┣ 📜 exploratory_analysis.py
  ┃ ┃ ┃ ┣ 📜 interactive_correlation.py
  ┃ ┃ ┃ ┣ 📜 interactive_distribution.py
- ┃ ┃ ┃ ┣ 📜 prediction_model.py
- ┃ ┃ ┃ ┣ 📜 score_relationship.py
- ┃ ┃ ┃ ┗ 📜 top_students.py
+ ┃ ┃ ┃ ┗ 📜 test_prep_analysis.py
  ┃ ┃ ┣ 📂 data
  ┃ ┃ ┣ 📂 db
  ┃ ┃ ┃ ┣ 📜 basic_queries.py
@@ -234,6 +178,7 @@ python analysis/combined_visualizations.py
 📜 Script
 
 `main.py`: Script principal para ejecutar la exportación de datos.
+
 📤 Exports
 
 En esta carpeta se encuentran los archivos generados por los scripts en formato .csv.

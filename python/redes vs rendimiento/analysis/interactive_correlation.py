@@ -1,9 +1,12 @@
 import sqlite3
 import pandas as pd
 import plotly.graph_objects as go
+import os
 
 # Ruta de la base de datos
-DB_FILE = "student_analysis.db"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+DB_FILE = os.path.join(base_dir, "..", "data", "student_analysis.db")
+
 
 def interactive_correlation():
     """Matriz de correlación interactiva entre las puntuaciones."""
@@ -32,6 +35,7 @@ def interactive_correlation():
         yaxis_title="Variables"
     )
     fig.show()
+
 
 if __name__ == "__main__":
     interactive_correlation()

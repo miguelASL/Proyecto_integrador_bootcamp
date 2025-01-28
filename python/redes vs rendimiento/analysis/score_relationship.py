@@ -2,9 +2,12 @@ import sqlite3
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
 # Ruta de la base de datos
-DB_FILE = "student_analysis.db"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+DB_FILE = os.path.join(base_dir, "..", "data", "student_analysis.db")
+
 
 def score_relationship():
     """Visualización de relaciones entre puntuaciones."""
@@ -17,9 +20,11 @@ def score_relationship():
 
     # Pairplot para relaciones entre las puntuaciones
     sns.pairplot(df, hue="test_prep_course", diag_kind="kde", palette="Set2",
-                    corner=True, height=2.5)
-    plt.suptitle("Relaciones entre Puntuaciones y Curso de Preparación", y=1.02)
+                 corner=True, height=2.5)
+    plt.suptitle(
+        "Relaciones entre Puntuaciones y Curso de Preparación", y=1.02)
     plt.show()
+
 
 if __name__ == "__main__":
     score_relationship()

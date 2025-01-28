@@ -1,9 +1,10 @@
 import sqlite3
 import pandas as pd
 import plotly.express as px
-
+import os
 # Ruta de la base de datos
-DB_FILE = "student_analysis.db"
+base_dir = os.path.dirname(os.path.abspath(__file__))
+DB_FILE = os.path.join(base_dir, "..", "data", "student_analysis.db")
 
 def interactive_distribution():
     """Distribución interactiva de las puntuaciones por materia."""
