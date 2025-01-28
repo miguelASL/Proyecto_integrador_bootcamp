@@ -2,6 +2,28 @@
 
 ![alt text](image/portada.png)
 
+
+## 📥 Cómo Descargar el Proyecto
+
+### 1️⃣ Clona el repositorio:
+
+```bash
+git clone https://github.com/miguelASL/Proyecto_integrador_bootcamp.git
+```
+
+### 2️⃣ Accede al directorio del proyecto:
+
+```bash 
+cd Proyecto_integrador_bootcamp
+```
+
+### 3️⃣ Explora los archivos y directorios:
+
+```bash
+ls
+```
+---
+
 ## 📁 Estructura del Proyecto
 
 ### 1. Power BI
@@ -70,5 +92,3 @@
 Este proyecto está licenciado bajo los términos de la [Licencia MIT](LICENSE).
 
 ---
-
-¡Gracias por visitar nuestro proyecto! Esperamos que encuentres útil la información y el análisis presentado.
